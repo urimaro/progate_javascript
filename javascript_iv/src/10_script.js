@@ -16,6 +16,15 @@ class Animal {
 }
 
 class Dog extends Animal {
+  info() {
+    this.greet();
+    console.log(`名前は${this.name}です`);
+    console.log(`${this.age}歳です`);
+
+    const humanAge = dog.getHumanAge();
+    console.log(`人間年齢で${humanAge}歳です`);
+  }
+
   getHumanAge() {
     return this.age * 7;
   }
@@ -23,6 +32,3 @@ class Dog extends Animal {
 
 const dog = new Dog("レオ", 4);
 dog.info();
-
-const humanAge = dog.getHumanAge();
-console.log(`人間年齢で${humanAge}歳です`);
