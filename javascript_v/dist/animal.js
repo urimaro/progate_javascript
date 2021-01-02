@@ -13,6 +13,7 @@ class Animal {
     console.log(`名前は${this.name}です`);
     console.log(`${this.age}歳です`);
   }
+
 }
 
 export default Animal;
