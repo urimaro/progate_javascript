@@ -1,3 +1,6 @@
-import dog from "./dogData.js";
+import {dog1, dog2} from "./dogData.js";
 
-dog.info();
+console.log("---------");
+dog1.info();
+console.log("---------");
+dog2.info();
