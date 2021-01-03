@@ -1,3 +1,2 @@
-import Dog from "./dog.js";
-const dog = new Dog("レオ", 4, "チワワ");
+import dog from "./dogData.js";
 dog.info();
